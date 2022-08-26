@@ -3,7 +3,7 @@ const checkTypeNumber = givenNumber => {
         if(givenNumber % 2 == 0){
             return 'GENAP'
         }else{
-            return 'GENAP'
+            return 'GANJIL'
         }
     }else if(typeof(givenNumber) == 'string'){
         return 'Error : Invalid Data Type'
