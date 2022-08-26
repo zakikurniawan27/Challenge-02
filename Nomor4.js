@@ -11,5 +11,5 @@ console.log(isValidPassword('Meong2021'))
 console.log(isValidPassword('meong2021'))
 console.log(isValidPassword('@eong'))
 console.log(isValidPassword('Meong2'))
-// console.log(isValidPassword(0))
-// console.log(isValidPassword())
+// console.log(isValidPassword(0))// error : karena parameter harus sesuai pattern yang berupa string
+// console.log(isValidPassword())// error : karena tidak ada parameter
